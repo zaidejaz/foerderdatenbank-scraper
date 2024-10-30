@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "foerderdatenbank-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+mysql-connector-python = "^9.0.0"
+sqlalchemy = "^2.0.32"
+pyppeteer = "^2.0.0"
+schedule = "^1.2.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
